@@ -15,3 +15,7 @@ Trackify/
 │   ├── styles.css                # CSS styling
 │   ├── package.json              # (If using frontend dependencies)
 │── .gitignore                     # Ignore node_modules and .env
+
+cd backend
+npm init -y
+npm install express cors axios dotenv express-session pg
